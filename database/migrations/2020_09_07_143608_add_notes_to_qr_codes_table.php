@@ -1,0 +1,33 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddNotesToQrCodesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('qr_codes', function (Blueprint $table) {
+            $table->longText('notes_it')->after('activation_end')->nullable();
+            $table->longText('notes_en')->after('activation_end')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('qr_codes', function (Blueprint $table) {
+            //
+        });
+    }
+}

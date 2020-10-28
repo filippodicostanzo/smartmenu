@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+// OverlayScrollbars
+@import '~overlayscrollbars/css/OverlayScrollbars.css';
+
+// iCheck
+@import '~icheck-bootstrap/icheck-bootstrap.css';
+
+// AdminLTE
+@import '../../vendor/almasaeed2010/adminlte/dist/css/adminlte.css';
+
+// Bootstrap
+// Already imported by AdminLTE
+//@import '~bootstrap/scss/bootstrap';
+
+// Variables
+@import 'variables';
+
+// Admin
+@import 'admin';
+
+// Layout
+@import 'layout';
+
+// Multi Select
+@import '../plugins/multiselect/css/multi-select.css';
+
+// Datepicker
+@import '../plugins/bootstrapdatepicker/css/bootstrap-datepicker.min.css';
+@import '../plugins/bootstrapdatepicker/css/bootstrap-datepicker.standalone.min.css';
+@import '../plugins/bootstrapdatepicker/css/bootstrap-datepicker3.min.css';
+@import '../plugins/bootstrapdatepicker/css/bootstrap-datepicker3.standalone.min.css';
